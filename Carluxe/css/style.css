@@ -1,0 +1,192 @@
+/* ------------FONT-FAMILY------------ */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+/* ------------RESET------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #364d5c;
+}
+
+/*------------------------------------------------------------------ HEADER --------------------------------------------------------------------*/
+
+/* ------------NAVBAR------------ */
+.nav{
+    background-color: #98b8b8;
+    height: 7vh;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav ul{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav a{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #364d5c;
+    padding: 0.5rem;
+}
+
+.nav a:hover{
+    background-color: #98b8b8;
+    border-radius: 55px;
+    transition-duration: 0.3s;
+}
+
+
+/* ------------COORDONEES------------ */
+.coordonees{
+    padding: 0.6rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #98b8b82f;
+}
+
+.adresse , .telephone{
+    display: flex;
+    gap: 1vw;
+    height: 3vh;
+    align-items: center;
+    color: #98b8b8;
+}
+
+/* ------------HERO SECTION------------ */
+.hero{
+    background: linear-gradient(#98b8b8bb, #364d5cd8);
+    background-image: url(../img/hero-image.jpg);
+    height: 100vh;
+    color: #98b8b8;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 12vh;
+}
+
+.hero h1{
+    font-size: 2rem;
+    text-shadow: rgba(255, 204, 0, 0.479) 1px 0 10px;
+}
+.hero p{
+    font-size: 3rem;
+    text-shadow: rgba(255, 204, 0, 0.479) 1px 0 10px;
+}
+.hero img{
+    width: 4vw;
+    text-shadow: rgba(255, 204, 0, 0.479) 1px 0 10px;
+}
+
+
+/*------------------------------------------------------------------ MAIN --------------------------------------------------------------------*/
+.container{
+    color: #98b8b8;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0px 0px 16px #98b8b851;
+    border-radius:15px;
+    margin-top: 3rem ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+    height: 80vh;
+    width: 95%;
+    text-align: center;
+    padding: 2rem auto;
+}
+.vehicules{
+    margin: auto;
+    height: 90%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.voitures h3, .motos h3{
+    margin: 1rem;
+}
+
+
+.voitures , .motos{
+    box-shadow: 0px 0px 16px rgba(0, 255, 255, 0.036);
+    background-color: rgba(0, 255, 255, 0.036);
+    width: 48%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    gap: 25px;
+    
+}
+
+.voitures .cardsv , .motos .cardsm{
+    display: flex;
+    gap: 2rem;
+}
+
+.voitures .cardsv img, .motos .cardsm img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+.voitures .cardsv p , .motos .cardsm p{
+    margin: auto;
+    position: fixed;
+}
+
+.cardv,.cardm{
+    /* background-color: pink; */
+    height: 60%;
+    width: 50%;
+    transition-duration: 0.2s;
+    
+}
+.cardv:hover,.cardm:hover{
+    height: 75%;
+    width: 60%;
+    transition-duration: 0.3s;
+}
+
+
+
+
+
+/*------------------------------------------------------------------ FOOTER --------------------------------------------------------------------*/
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1rem;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-family: 'nunito';
+    color: #98b8b8;
+}
+
+footer a:hover{
+    color: #378ec8;
+}
