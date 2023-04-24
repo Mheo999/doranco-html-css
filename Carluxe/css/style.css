@@ -24,7 +24,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* position: fixed; */
 }
 
 .nav-list li{
